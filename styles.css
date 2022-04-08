@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 6;
     box-sizing: inherit;
 }
 
@@ -10,4 +10,13 @@ html {
     display: flex;
     font-size: 62.5%;
 }
+
+
+body{
+background-color:bisque
+}
+
+
+
+
 
