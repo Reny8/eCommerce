@@ -48,7 +48,19 @@ main {
     background-color: black;
 }
 
+.home {
+    background-color: black
+}
 .products img {
     margin: 10px;
     width: 20%;
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.about img {
+   width: 20%; 
 }
