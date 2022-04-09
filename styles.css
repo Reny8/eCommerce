@@ -1,24 +1,14 @@
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-   
-}
+
 
 html {
     display: flex;
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 
 
-body{
+body {
   background-color:bisque;
-  width: 80%;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   font-family: sans-serif;
   color: black;
 }
@@ -26,40 +16,39 @@ body{
 header {
     background-color: bisque;
     position: relative;
-    padding: 1rem;
 }
 
 nav a {
     color: black;
-    font-size: 30px;
+    font-size: 12px;
     text-decoration: none;
 }
 
-nav ul{
-    list-style-type: none;
-    position:absolute;
-    top: 0.7rem;
-    right: 1rem;
+nav ul {
+    display: flex;
+    list-style-type: none;  
+    padding-inline-start: 4px;
 }
 
-nav li{
+nav li {
     display:  inline;
-    margin-right: 4rem;
-
-}
-
-main{
-    margin: 1rem auto;
-    width:80%;
-}
-
-main section{
-    margin-top: 6rem;
-    padding: 2rem;
-}
-
-.home img{
-    float: left;
     margin-right: 3rem;
-    width: 100%;
+
+}
+
+main {
+    margin: 0px;
+}
+
+.home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: black;
+}
+
+.products img {
+    margin: 10px;
+    width: 20%;
 }
