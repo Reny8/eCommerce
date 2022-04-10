@@ -1,20 +1,18 @@
 
 
 html {
-    display: flex;
     font-size: 62.5%;
 }
 
 
 body {
-  background-color:bisque;
+    background-color: bisque;
   margin: auto;
   font-family: sans-serif;
   color: black;
 }
 
 header {
-    background-color: bisque;
     position: relative;
 }
 
@@ -63,4 +61,23 @@ main {
 }
 .about img {
    width: 20%; 
+}
+footer {
+    display: flex;
+    margin: center;
+    justify-content:space-between;
+    width: 10%;
+
+}
+.contact p{
+    background-color: white;
+    width: 82%;
+    padding: 50px;
+    margin: 20px;
+}
+.contact div {
+    background-color: white;
+    width: 90%;
+    padding: 18px;
+    margin: 20px;
 }
