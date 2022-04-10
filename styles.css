@@ -56,14 +56,23 @@ main {
     color: white;
 }
 .products img {
-    margin: 10px;
-    width: 20%;
+    margin: 0px;
+    width: 40%;
+    margin: 3px;
 }
-.products {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-end;
+.product_catelog {
+    display: grid;
+    width: 128em;
+    height: 75rem;
+    grid-template-areas: 
+    "tl tm tr"
+    "ml mm mr"
+    "bl bm br";
+    justify-items: center;
+}
+.product {
+    display: grid;
+
 }
 .about img {
    width: 20%; 
