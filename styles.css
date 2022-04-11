@@ -93,13 +93,13 @@ main {
     width: 200px;
     height: 10px;
 }
-.contact p{
+    .contact p{
     background-color: white;
     width: 84%;
     padding: 4%;
     margin: auto;
     position: relative;
-    border-style: solid;
+    border-style: solid; 
 }
 .contact div {
     background-color: white;
