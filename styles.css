@@ -11,6 +11,7 @@ body {
   color: black;
 }
 
+
 header {
     position: relative;
 }
@@ -26,6 +27,7 @@ nav ul {
     list-style-type: none;  
     padding-inline-start: 4px;
 }
+
 
 li {
     display:  inline;
