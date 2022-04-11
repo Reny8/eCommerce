@@ -1,5 +1,4 @@
 
-
 html {
     font-size: 62.5%;
 }
@@ -72,19 +71,22 @@ main {
 }
 .product {
     display: grid;
-
 }
-.about div { 
-   display: grid;
-   width: 10%;
-   height: 10%;
-   grid-template-areas: 
-   "tl tm tr";
-}
-.about_photo {
-    display:grid;
+.about img { 
+   margin-right: 40rem;
+   width: 15%;
 }
 
+.aboutdis {
+    display: flex;
+    padding: 8px;
+    color: red;
+    margin: 25rem;
+    position:relative;
+    text-align: right;
+    width: 200px;
+    height: 200px;
+}
 .contact p{
     background-color: black;
     width: 86%;
