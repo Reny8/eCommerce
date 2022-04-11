@@ -62,7 +62,7 @@ main {
 }
 .product_catelog {
     display: grid;
-    width: 128em;
+    width: 128rem;
     height: 75rem;
     grid-template-areas: 
     "tl tm tr"
@@ -74,15 +74,14 @@ main {
     display: grid;
 
 }
-.about_page{ 
+.about div { 
    display: grid;
-   width: 10rem;
-   height: 10rem;
+   width: 10%;
+   height: 10%;
    grid-template-areas: 
    "tl tm tr";
-   justify-items: center;
 }
-.abouy_photo {
+.about_photo {
     display:grid;
 }
 
