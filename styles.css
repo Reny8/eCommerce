@@ -112,7 +112,7 @@ main {
     border-style: solid;
 }
 .contact {
-    margin: auto;
+    margin: 274px;
 }
 
 .top-left {
@@ -150,3 +150,6 @@ footer img {
     border: 1px solid #000000;
     word-break: keep-all;
   }
+.contact header {
+    bottom: 0px;
+}
