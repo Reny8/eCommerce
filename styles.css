@@ -71,6 +71,7 @@ main {
 }
 .product {
     display: grid;
+    border-style: solid;
 }
 .about img { 
    margin-right: 40rem;
@@ -79,13 +80,12 @@ main {
 
 .aboutdis {
     display: flex;
-    padding: 8px;
-    color: red;
-    margin: 25rem;
+    margin: 0rem;
     position:relative;
-    text-align: right;
+    left: 270px;
+    bottom: 200px;
     width: 200px;
-    height: 200px;
+    height: 10px;
 }
 .contact p{
     background-color: black;
