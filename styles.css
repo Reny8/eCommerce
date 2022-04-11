@@ -37,6 +37,9 @@ footer ul {
     list-style-type: none;
     justify-content: space-between;
 }
+footer {
+    background-color: black;
+}
 
 main {
     margin: 0px;
@@ -71,6 +74,7 @@ main {
 }
 .product {
     display: grid;
+    justify-items: center;
     border-style: solid;
 }
 .about img { 
@@ -88,16 +92,23 @@ main {
     height: 10px;
 }
 .contact p{
-    background-color: black;
-    width: 86%;
-    padding: 50px;
-    margin: 20px;
+    background-color: white;
+    width: 84%;
+    padding: 4%;
+    margin: auto;
+    position: relative;
+    border-style: solid;
 }
 .contact div {
-    background-color: black;
-    width: 92%;
-    padding: 18px;
-    margin: 20px;
+    background-color: white;
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+    position: relative;
+    border-style: solid;
+}
+.contact {
+    padding: 11%;
 }
 .top-left {
     position: absolute;
@@ -112,4 +123,9 @@ main {
     right: 23px;
     color: white;
     font-size: large;
+  }
+  .products button {
+      width: 38%;
+      color: white;
+      background-color: rgb(191, 118, 49);
   }
