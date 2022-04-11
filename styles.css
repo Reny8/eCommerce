@@ -6,7 +6,7 @@ html {
 
 
 body {
-    background-color: bisque;
+    background-color: white;
   margin: auto;
   font-family: sans-serif;
   color: black;
@@ -53,7 +53,7 @@ main {
 
 .home {
     background-color: black;
-    color: white;
+    color: black;
 }
 .products img {
     margin: 0px;
@@ -74,18 +74,26 @@ main {
     display: grid;
 
 }
-.about img {
-   width: 20%; 
+.about_page{ 
+   display: grid;
+   width: 10rem;
+   height: 10rem;
+   grid-template-areas: 
+   "tl tm tr";
+   justify-items: center;
+}
+.abouy_photo {
+    display:grid;
 }
 
 .contact p{
-    background-color: white;
+    background-color: black;
     width: 86%;
     padding: 50px;
     margin: 20px;
 }
 .contact div {
-    background-color: white;
+    background-color: black;
     width: 92%;
     padding: 18px;
     margin: 20px;
@@ -99,7 +107,7 @@ main {
   }
   .bottom-right {
     position: absolute;
-    bottom: 169px;
+    top: 25rem;
     right: 23px;
     color: white;
     font-size: large;
