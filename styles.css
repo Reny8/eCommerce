@@ -37,7 +37,7 @@ li {
 footer ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 footer {
     background-color: rgb(191, 118, 49);
@@ -60,14 +60,15 @@ main {
     color: black;
 }
 .products img {
-    margin: 0px;
     width: 40%;
     margin: 3px;
+    height: 153px;
 }
 .product_catelog {
     display: grid;
     width: 128rem;
     height: 75rem;
+    padding: 21px;
     grid-template-areas: 
     "tl tm tr"
     "ml mm mr"
@@ -77,7 +78,8 @@ main {
 .product {
     display: grid;
     justify-items: center;
-    border-style: solid;
+    align-items:center;
+    
 }
 .about img { 
    margin-right: 40rem;
@@ -93,7 +95,7 @@ main {
     width: 200px;
     height: 10px;
 }
-    .contact p{
+.contact p{
     background-color: white;
     width: 84%;
     padding: 4%;
@@ -110,18 +112,19 @@ main {
     border-style: solid;
 }
 .contact {
-    padding: 11%;
+    margin: auto;
 }
+
 .top-left {
     position: absolute;
-    top: 55px;
+    top: 93px;
     left: 23px;
     color: white;
     font-size: large;
   }
   .bottom-right {
     position: absolute;
-    top: 25rem;
+    top: 38rem;
     right: 23px;
     color: white;
     font-size: large;
@@ -134,13 +137,11 @@ main {
 .logo {
     margin-left: 252px;
     margin-right: 342px;
+    height: 0%;
   }
-
-  .logos {
-    margin-right: 1rem;
-  }
-
-  .logosa {
-   
-    margin-left: 1rem;
-  }
+footer img {
+    width: 50%;
+}
+.foot_logo {
+    margin: auto;
+}
