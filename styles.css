@@ -40,7 +40,7 @@ footer ul {
     justify-content: space-between;
 }
 footer {
-    background-color: black;
+    background-color: rgb(191, 118, 49);
 }
 
 main {
@@ -134,4 +134,13 @@ main {
 .logo {
     margin-left: 252px;
     margin-right: 342px;
+  }
+
+  .logos {
+    margin-right: 1rem;
+  }
+
+  .logosa {
+   
+    margin-left: 1rem;
   }
